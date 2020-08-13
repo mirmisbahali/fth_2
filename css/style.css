@@ -117,4 +117,31 @@ header {
 #four .section_four_table tr:nth-child(2n+1) td {
   background: #363636;
 }
+
+#five table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#five table .tb {
+  border: 1px solid #E0E0E0;
+}
+
+#five table tr:first-child > * {
+  vertical-align: bottom;
+}
+
+#five table tr th {
+  padding: 10px;
+}
+
+#five table tr td {
+  padding: 10px;
+  text-align: center;
+}
+
+#five table tr td button {
+  background: black;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

@@ -127,3 +127,34 @@ header {
         }
     }
 }
+
+#five {
+    table {
+        table-layout: fixed;
+        width: 100%;
+
+        .tb {
+            border: 1px solid #E0E0E0;
+        }
+
+        tr:first-child > * {
+            vertical-align: bottom;
+
+        }
+
+        tr {
+            th {
+                padding: 10px;
+            }
+            td {
+                padding: 10px;
+                text-align: center;
+                
+                button {
+                    background: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
