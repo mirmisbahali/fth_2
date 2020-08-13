@@ -96,4 +96,22 @@ header {
   opacity: 0;
   color: white;
 }
+
+#four .section_four_table {
+  background: #545454;
+  color: #F8F8F8;
+  border: none;
+}
+
+#four .section_four_table * {
+  border: none;
+}
+
+#four .section_four_table tr:nth-child(2n) th {
+  background: black;
+}
+
+#four .section_four_table tr:nth-child(2n+1) td {
+  background: #363636;
+}
 /*# sourceMappingURL=style.css.map */

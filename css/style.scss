@@ -103,3 +103,24 @@ header {
     }
 
 }
+
+#four {
+    .section_four_table {
+        background: #545454;
+        color: #F8F8F8;
+
+        border: none;
+
+        * {
+            border:none;
+        }
+
+        tr:nth-child(2n) th {
+            background: black;
+        }
+
+        tr:nth-child(2n+1) td {
+            background: #363636;
+        }
+    }
+}
