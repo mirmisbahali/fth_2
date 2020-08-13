@@ -18,38 +18,38 @@ header {
   height: 720px;
 }
 
-#playlist {
+#two #playlist {
   background: #26292E !important;
   height: 720px;
 }
 
-#playlist p {
-  color: #8C8C8C !important;
-}
-
-#playlist #playlist_title {
+#two #playlist #playlist_title {
   background: #09080B !important;
 }
 
-#playlist #playlist_items {
+#two #playlist p {
+  color: #8C8C8C !important;
+}
+
+#two #playlist #playlist_items {
   height: 500px;
   overflow-y: scroll;
 }
 
-#playlist #playlist_items img {
+#two #playlist #playlist_items img {
   display: inline-block;
 }
 
-#playlist #playlist_items::-webkit-scrollbar {
+#two #playlist #playlist_items::-webkit-scrollbar {
   width: 0;
 }
 
-#warning {
+#two #warning {
   border-color: 1px solid #C1DFF8;
   background: #EBF1F8;
 }
 
-.small_thumbnail {
+#two .small_thumbnail {
   display: inline-block !important;
 }
 
@@ -57,13 +57,21 @@ header {
   overflow: hidden;
 }
 
-#three .progress_text {
+#three .progress_text .percentage {
   position: relative;
   text-align: center;
   width: 50px;
   background: #D62A22;
   color: white;
   left: 70%;
+}
+
+#three .progress_text .stick {
+  height: 20px;
+  background: #ABABAB;
+  width: 1px;
+  position: absolute;
+  left: 50%;
 }
 
 #three .progress {

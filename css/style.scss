@@ -44,10 +44,9 @@ header {
             img {
                 display: inline-block;
             }
-
-            #playlist_items::-webkit-scrollbar {
+        }
+        #playlist_items::-webkit-scrollbar {
                 width: 0;
-            }
         }
     }
 
@@ -73,12 +72,23 @@ header {
     overflow: hidden;
 
     .progress_text {
-        position: relative;
-        text-align: center;
-        width: 50px;
-        background: #D62A22;
-        color: white;
-        left: 70%;
+
+        .percentage {
+            position: relative;
+            text-align: center;
+            width: 50px;
+            background: #D62A22;
+            color: white;
+            left: 70%;
+        }
+
+        .stick {
+            height: 20px;
+            background: #ABABAB;
+            width: 1px;
+            position: absolute;
+            left: 50%;
+        }
     }
 
 
