@@ -5,20 +5,6 @@
           box-sizing: border-box;
 }
 
-html {
-  overflow: scroll;
-  overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #FF0000;
-}
-
 header {
   background: rgba(35, 35, 35, 0.6);
 }
@@ -54,6 +40,10 @@ header {
   display: inline-block;
 }
 
+#playlist #playlist_items::-webkit-scrollbar {
+  width: 0;
+}
+
 #warning {
   border-color: 1px solid #C1DFF8;
   background: #EBF1F8;
@@ -69,5 +59,41 @@ header {
 
 .small_images_list p {
   font-size: 10px;
+}
+
+#three {
+  overflow: hidden;
+}
+
+#three .progress_text {
+  position: relative;
+  text-align: center;
+  width: 50px;
+  background: #D62A22;
+  color: white;
+  left: 70%;
+}
+
+#three .progress {
+  background: #E9E9E9;
+  border-radius: 14px;
+  height: 15px;
+}
+
+#three .progress .progress-done {
+  background: #D62A22;
+  width: 70%;
+  border-radius: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
