@@ -53,14 +53,6 @@ header {
   display: inline-block !important;
 }
 
-.small_title {
-  font-size: 11px;
-}
-
-.small_images_list p {
-  font-size: 10px;
-}
-
 #three {
   overflow: hidden;
 }
