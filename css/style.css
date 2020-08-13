@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: rgba(35, 35, 35, 0.6);
+}
+
+#one h1 {
+  background: black;
+}
+/*# sourceMappingURL=style.css.map */
