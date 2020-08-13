@@ -5,6 +5,20 @@
           box-sizing: border-box;
 }
 
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
 header {
   background: rgba(35, 35, 35, 0.6);
 }
@@ -12,10 +26,6 @@ header {
 .section_title {
   background: black;
   margin: 0;
-}
-
-#two .row {
-  height: 720px;
 }
 
 #two #video {
@@ -42,5 +52,22 @@ header {
 
 #playlist #playlist_items img {
   display: inline-block;
+}
+
+#warning {
+  border-color: 1px solid #C1DFF8;
+  background: #EBF1F8;
+}
+
+.small_thumbnail {
+  display: inline-block !important;
+}
+
+.small_title {
+  font-size: 11px;
+}
+
+.small_images_list p {
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
