@@ -8,6 +8,43 @@ header {
     background: rgba(35, 35, 35, 0.6);
 }
 
-#one h1 {
+.section_title {
     background: black;
+    margin: 0;
 }
+
+#two {
+    .row {
+        height: 720px;
+    }
+
+    #video {
+        height: 720px;
+    }
+}
+
+#playlist {
+    background: #26292E !important;
+    height: 720px;
+
+    p {
+        color: #8C8C8C !important;
+        
+    }
+        #playlist_title {
+            background: #09080B !important;
+        }
+
+    #playlist_items {
+        height: 500px;
+        overflow-y: scroll;
+
+        img {
+            display: inline-block;
+            
+        }
+    }
+
+
+}
+
