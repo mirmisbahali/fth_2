@@ -18,11 +18,12 @@ header {
 
 #two {
 
-    // 
+    // Left Video 
     #video {
         height: 720px;
     }
 
+    // Right Column Playlist
     #playlist {
         background: #26292E !important;
         height: 720px;
@@ -49,31 +50,27 @@ header {
             }
         }
     }
+
+    // Section 2 Warning Message
+    #warning {
+        border-color: 1px solid #C1DFF8;
+        background: #EBF1F8;
+    }
+
+    // Section 2 small video blocks
+    .small_thumbnail {
+        display: inline-block !important;
+    }
+
+    
 }
 
 
 
-#warning {
-    border-color: 1px solid #C1DFF8;
-    background: #EBF1F8;
-}
 
-.small_thumbnail {
-    display: inline-block !important;
-}
-
-.small_title {
-    // font-size: 11px;
-}
-
-.small_images_list {
-    p {
-        // font-size: 10px;
-    };
-}
-
+// Section 3
 #three {
-        overflow: hidden;
+    overflow: hidden;
 
     .progress_text {
         position: relative;
@@ -106,6 +103,7 @@ header {
 
 }
 
+// Section 4
 #four {
     .section_four_table {
         background: #545454;
@@ -130,6 +128,8 @@ header {
     }
 }
 
+
+// Section 5
 #five {
     table {
         table-layout: fixed;
