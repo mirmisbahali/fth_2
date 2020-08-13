@@ -108,11 +108,14 @@ header {
     .section_four_table {
         background: #545454;
         color: #F8F8F8;
+        table-layout: fixed;
+        width: 100%;
 
         border: none;
 
         * {
             border:none;
+            padding: 10px;
         }
 
         tr:nth-child(2n) th {
