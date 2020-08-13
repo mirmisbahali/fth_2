@@ -60,8 +60,9 @@ header {
 #three .progress_text .percentage {
   position: relative;
   text-align: center;
-  width: 50px;
+  width: 60px;
   background: #D62A22;
+  border-radius: 5px;
   color: white;
   left: 70%;
 }
